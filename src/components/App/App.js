@@ -1,25 +1,18 @@
 import React from 'react';
+import { Navbar } from '../Navbar/Navbar';
+import { Trending } from '../Trending/Trending';
+import { Watchlist } from '../Watchlist/Watchlist';
 
 import './App.scss';
 
-function App() {
+const App = () => {
   return (
     <div className='app'>
-      <header className='app-header'>
-        <p>
-          Edit <code>src/app.js</code> and save to reload.
-        </p>
-        <a
-          className='app-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Trending />
+      <Watchlist />
     </div>
   );
-}
+};
 
 export default App;
