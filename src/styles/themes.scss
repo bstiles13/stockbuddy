@@ -1,0 +1,16 @@
+
+.light {
+  --foreground: #{#000000};
+  --background: #{#eeeeee};
+
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+.dark {
+  --foreground: #{#ffffff};
+  --background: #{#222222};
+
+  color: var(--foreground);
+  background-color: var(--background);
+}

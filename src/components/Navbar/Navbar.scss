@@ -1,4 +1,19 @@
 .navbar {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1rem 0.3rem;
   width: 100%;
-  border-bottom: 1px solid black;
+
+  .theme-toggle {
+    cursor: pointer;
+
+    &:first-of-type {
+      margin-right: 0.3rem;
+    }
+
+    &:last-of-type {
+      margin-left: 0.3rem;
+    }
+  }
 }
